@@ -22,6 +22,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "figaro", ">= 0.5.3"
+gem "devise"
+gem 'rack-mini-profiler'
+gem "letter_opener", :group => :development
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
